@@ -1,0 +1,29 @@
+{
+  "name": "issueapp",
+  "version": "1.0.0",
+  "description": "an issue application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arohChris/issueApp.git"
+  },
+  "author": "aroh christian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arohChris/issueApp/issues"
+  },
+  "homepage": "https://github.com/arohChris/issueApp#readme",
+  "dependencies": {
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-react": "^7.28.5"
+  }
+}
